@@ -183,3 +183,14 @@ The three AI features (Summary, Follow-Up, Sentiment) call Google's Gemini API s
 Get a free Gemini API key at [aistudio.google.com/apikey](https://aistudio.google.com/apikey), paste it into `GEMINI_API_KEY` in `server/.env`, and the AI buttons on the customer detail page will work immediately — no other code changes needed.
 
 To swap in a different model provider (e.g. OpenAI) instead of Gemini, replace the client instantiation and `generateContent` calls in `aiService.js` with the equivalent SDK calls; the controller and routes don't need to change.
+
+
+## Screenshots
+
+<img width="975" height="477" alt="image" src="https://github.com/user-attachments/assets/02b93b01-b906-4509-a022-5cec74edab35" />
+
+<img width="975" height="475" alt="image" src="https://github.com/user-attachments/assets/ec8549c5-2fde-4cd8-a64d-0a3300043172" />
+
+<img width="975" height="476" alt="image" src="https://github.com/user-attachments/assets/0dc0687f-7fa1-4cb2-8fd2-9eb68884f99b" />
+
+
